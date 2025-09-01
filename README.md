@@ -16,3 +16,10 @@ A Core PHP application to manage student records with RESTful API endpoints, MyS
 - Create the database:
   ```bash
   mysql -u your_username -p < schema.sql
+
+### 4. Running Server Locally
+- Start Apache server
+- Start Mysql server
+- Run
+  ```bash
+  php -S localhost:8000 router.php
